@@ -8,6 +8,7 @@ const About = () => {
     <div className='about'>
       <h1>We Are</h1>
       <h1>New Life Kingdom Ministries 7th Day</h1>
+      <div className='about_container'>
       <img className='pastor' src={pastor}        alt="image_of_pastor" />
         <p>
           NEW Life Kingdom Ministry 7th Day was birthed out  of what was known as
@@ -52,6 +53,8 @@ const About = () => {
           (2030) will be the final year of the Jubilee of the sixth Millennium. The seventh
           Millennium, since Adam sinned, begins 2031.
         </p>
+      </div>
+      
       
 
 
