@@ -8,7 +8,7 @@ const Header = () => {
         <h1>NEW LIFE</h1>
         <h1>KINGDOM</h1>
         <h1>MINISTRIES 7th DAY SABBATH</h1>
-       <video loop autoplay>
+       <video loop autoPlay muted>
         <source className='background'
           src={Video} type="video/mp4"
         />
