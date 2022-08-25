@@ -1,6 +1,7 @@
 import React from 'react'
-
+import logo from '../../assets/logo.jpg'
 import Video from '../../assets/VideoBG.mp4'
+import { Typewriter } from 'react-simple-typewriter'
 import image from '../../assets/NLbanner3.jpg'
 
 const Header = () => {
@@ -12,11 +13,25 @@ const Header = () => {
           src={Video} type="video/mp4"
         />
        </video>
+       <div className='logo'>
+          <img className='img_logo' src={logo} alt="church logo" />
+       </div>
        <div className='header_content'>
         
-        <h1>NEW LIFE</h1>
-        <h1>KINGDOM</h1>
-        <h1>MINISTRIES 7th DAY SABBATH</h1>
+        <h1>
+          WELCOME TO NEW LIFE KINGDOM <br /> MINISTRIES 7th DAY SABBATH: <br />
+        <span>
+          <Typewriter
+            words={['Join our family for worship every Saturday @11am EST', 'And Wednesday for bible study 8pm EST' ]}
+            loop={false}
+            cursor
+            cursorStyle='_'
+            typeSpeed={100}
+            deleteSpeed={80}
+            delaySpeed={1000}
+          />
+        </span>
+        </h1>
        </div>
     </div>
   )

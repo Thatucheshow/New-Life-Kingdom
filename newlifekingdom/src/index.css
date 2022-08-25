@@ -12,7 +12,18 @@
     height: 100%;
     top: 50%;
     text-align: center;
-    color: rgba(62, 24, 62, 0.906);
+    color: rgba(215, 149, 17, 0.906);
+}
+.header_content span{
+    color: aliceblue;
+}
+.logo{
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+}
+.img_logo{
+    width: 80%;
 }
 .overlay{
     position: absolute;
@@ -40,6 +51,9 @@ body{
     padding: 5px;
     padding-top: 10%;
 
+}
+.about h1{
+    text-align: center;
 }
 
 .about_container{
