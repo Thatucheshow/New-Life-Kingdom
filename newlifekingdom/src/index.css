@@ -49,11 +49,18 @@ body{
     width: 100%;
     height: 100%;
     padding: 5px;
-    padding-top: 10%;
+    padding-top: 5%;
+    background-color: antiquewhite;
 
 }
 .about h1{
+    width: 80%;
+    background-color: rgb(247, 169, 75);
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
 }
 
 .about_container{
@@ -72,10 +79,10 @@ body{
     padding: 5px;
 }
 .pastor{
-    width: 30%;
+    width: 40%;
     height: 40%;
     float: left;
-    margin:5px;
+    margin-right:10px;
 }
 .contact{
     background-color: rgb(162, 33, 194);

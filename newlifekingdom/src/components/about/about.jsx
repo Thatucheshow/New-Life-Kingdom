@@ -6,7 +6,7 @@ import praise from '../../assets/praiseteam1.jpg'
 const About = () => {
   return (
     <div className='about'>
-      <h1>We Are <br /> New Life Kingdom Ministries 7th Day </h1>
+      <h1>ABOUT US <br />  </h1>
       <div className='about_container'>
       <img className='pastor' src={pastor}        alt="image_of_pastor" />
         <p>
@@ -25,7 +25,7 @@ const About = () => {
           <b>Password:</b> 7QRBrG         
          </div> 
         </p>
-        <p>
+        <p> <b>Meet Our Pastor</b> <br />
           Alvin Bernard is the Senior Pastor of New Life Kingdom Ministries 7th day; he was
           born in from Trinidad and Tobago and has spent most of his life studying the bible.
           Early on he was exposed to advance bible teaching, which shaped his beliefs today.
@@ -38,11 +38,11 @@ const About = () => {
           insights and revelations surfaced that earned the distinction of “Hidden truths
           coming to light.” <br/> 
           <br />
-          Pastor Bernard published the book: Insights to the Book of Daniel, (2003 $2006)
-          available in bookstores of from the publisher – Author house, IBSN 1-4140-1874-
+          Pastor Bernard published the book: <b>Insights to the Book of Daniel,</b>  (2003 $2006)
+          available in bookstores from the publisher – Author house, IBSN 1-4140-1874-
           6(sc). <br />
           <br />
-          Alvin Bernard also published a 2020 Re-Vision; this magazine is a review of some
+          <b> Alvin Bernard also published a 2020 Re-Vision</b>; this magazine is a review of some
           studies in the book “ Insights to the Book of Daniel” as well as additional charts,
           graphs, and chronologies that add clarity to the topics presented. Central to these
           studies is the truth about the first advent of the Messiah and the imminence of His
