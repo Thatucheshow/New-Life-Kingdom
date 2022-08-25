@@ -63,3 +63,19 @@ body{
     float: left;
     margin:5px;
 }
+.contact{
+    background-color: rgb(162, 33, 194);
+    padding: 3rem 0;
+}
+.footer_social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+.footer_social a{
+    background: rgb(198, 121, 7);
+    color: rgb(187, 192, 192);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+}
