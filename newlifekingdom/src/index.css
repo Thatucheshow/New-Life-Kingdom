@@ -115,7 +115,6 @@ body{
 }
 .navlinks a{
     text-decoration: none;
-    text-align: right;
     margin-right: 15px;
     color: rgb(247, 169, 75);
 }
@@ -128,5 +127,15 @@ body{
 }
 
 @media (max-width: 780px){
-    
+    .navlinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        
+    }
+    .navlinks a{
+        text-decoration: none;
+        text-align: right;
+        color: rgb(164, 100, 5);
+    }
 }
