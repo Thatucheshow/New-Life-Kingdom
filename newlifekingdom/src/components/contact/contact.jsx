@@ -3,7 +3,7 @@ import {ImYoutube2} from 'react-icons/im'
 import {AiFillFacebook} from 'react-icons/ai'
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div id='contact' className='contact'>
       
       <div className='footer_social'>
         <a href="https://www.youtube.com/watch?v=1-wnh1A37rA" target="_blank"><ImYoutube2/></a>

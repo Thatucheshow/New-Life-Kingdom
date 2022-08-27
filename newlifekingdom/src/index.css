@@ -100,3 +100,33 @@ body{
     padding: 0.8rem;
     border-radius: 0.7rem;
 }
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+.navlinks a{
+    text-decoration: none;
+    text-align: right;
+    margin-right: 15px;
+    color: rgb(247, 169, 75);
+}
+.navlinks a:hover{
+    text-decoration: underline;
+    color: rgb(247, 169, 75);
+    transform: scale(2) ;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+@media (max-width: 780px){
+    
+}

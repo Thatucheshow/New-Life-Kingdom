@@ -5,7 +5,7 @@ import praise from '../../assets/praiseteam1.jpg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='About' className='about'>
       <h1>ABOUT US <br />  </h1>
       <div className='about_container'>
       <img className='pastor' src={pastor}        alt="image_of_pastor" />

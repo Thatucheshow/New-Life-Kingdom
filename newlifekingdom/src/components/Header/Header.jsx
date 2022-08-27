@@ -13,8 +13,11 @@ const Header = () => {
           src={Video} type="video/mp4"
         />
        </video>
-       <div className='logo'>
+       <div id='#' className='logo'>
           <img className='img_logo' src={logo} alt="church logo" />
+       </div>
+       <div>
+
        </div>
        <div className='header_content'>
         
