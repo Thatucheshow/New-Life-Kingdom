@@ -10,6 +10,11 @@ const Contact = () => {
         <a href="https://www.facebook.com/New-Life-Kingdom-Ministries-7th-Day-
 110400010462723" target="_blank"><AiFillFacebook/></a>
       </div>
+      <div>
+        <h3>Email: nlkm7day@gmail.com</h3>
+        <h3>Phone: 770-885-0844</h3>
+        <h3>Zelle Donations: 470-424-2588</h3>
+      </div>
     </div>
   )
 }
