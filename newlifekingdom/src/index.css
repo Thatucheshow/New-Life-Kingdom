@@ -37,7 +37,13 @@
     position: fixed;
     top: 0;
 }
-
+/* @media screen and (max-width: 600px){
+    .logo {
+        position: static;
+        padding: 1rem;
+        top: 0;
+    }
+} */
 .img_logo{
     width: 80%;
 }
@@ -167,4 +173,17 @@ body{
     font-size: 18px;
     padding: 5rem;
 
+}
+@media screen and (max-width: 600px){
+    #footer-contact{
+        width: 100%;
+        height:20%;
+        margin: 0 auto;
+        color: aliceblue;
+        font-size: 15px;
+        padding: 2rem;
+    }
+    #footer-contact, h3{
+        text-align: center;
+    }
 }
